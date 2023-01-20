@@ -24,4 +24,17 @@
                         overlay.style.display = "none";
                       });
                     });
+                    window.addEventListener('DOMContentLoaded', function() {
+                      let openOverlayBtn = document.getElementById("openTest");
+                    let overlay = document.getElementById("Project");
+                    let closeOverlayBtn = document.getElementById("closeTest");
+                  
+                  
+                    openOverlayBtn.addEventListener("click", function() {
+                      overlay.style.display = "block";
+                    });
+                    closeOverlayBtn.addEventListener("click", function() {
+                      overlay.style.display = "none";
+                    });
+                  });
                     
